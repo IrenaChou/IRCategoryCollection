@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		7780FEA21EC1A8330015BB22 /* NSDictionary+IRLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7780FE9F1EC1A8330015BB22 /* NSDictionary+IRLog.m */; };
 		7780FEA31EC1A8330015BB22 /* UIColor+IRExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7780FEA11EC1A8330015BB22 /* UIColor+IRExtend.m */; };
+		7780FEA91EC1C8250015BB22 /* NSString+IRDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7780FEA81EC1C8250015BB22 /* NSString+IRDate.m */; };
+		7780FEAC1EC1C90E0015BB22 /* UIView+IRLayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 7780FEAB1EC1C90E0015BB22 /* UIView+IRLayoutMethods.m */; };
+		7780FEAF1EC1CB530015BB22 /* NSString+IRVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = 7780FEAE1EC1CB530015BB22 /* NSString+IRVerify.m */; };
+		7780FEB21EC1D2D70015BB22 /* NSString+IRPinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7780FEB11EC1D2D70015BB22 /* NSString+IRPinYin.m */; };
+		7780FEB51EC1D3F70015BB22 /* UIViewController+IRNavigationBarBackgrounTransparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7780FEB41EC1D3F70015BB22 /* UIViewController+IRNavigationBarBackgrounTransparent.m */; };
 		77C9BBB41EC1A6E900584E68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C9BBB31EC1A6E900584E68 /* main.m */; };
 		77C9BBB71EC1A6E900584E68 /* IRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C9BBB61EC1A6E900584E68 /* IRAppDelegate.m */; };
 		77C9BBBD1EC1A6E900584E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C9BBBB1EC1A6E900584E68 /* Main.storyboard */; };
@@ -40,6 +45,16 @@
 		7780FE9F1EC1A8330015BB22 /* NSDictionary+IRLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+IRLog.m"; sourceTree = "<group>"; };
 		7780FEA01EC1A8330015BB22 /* UIColor+IRExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+IRExtend.h"; sourceTree = "<group>"; };
 		7780FEA11EC1A8330015BB22 /* UIColor+IRExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IRExtend.m"; sourceTree = "<group>"; };
+		7780FEA71EC1C8250015BB22 /* NSString+IRDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IRDate.h"; sourceTree = "<group>"; };
+		7780FEA81EC1C8250015BB22 /* NSString+IRDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IRDate.m"; sourceTree = "<group>"; };
+		7780FEAA1EC1C90E0015BB22 /* UIView+IRLayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IRLayoutMethods.h"; sourceTree = "<group>"; };
+		7780FEAB1EC1C90E0015BB22 /* UIView+IRLayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IRLayoutMethods.m"; sourceTree = "<group>"; };
+		7780FEAD1EC1CB530015BB22 /* NSString+IRVerify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IRVerify.h"; sourceTree = "<group>"; };
+		7780FEAE1EC1CB530015BB22 /* NSString+IRVerify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IRVerify.m"; sourceTree = "<group>"; };
+		7780FEB01EC1D2D70015BB22 /* NSString+IRPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IRPinYin.h"; sourceTree = "<group>"; };
+		7780FEB11EC1D2D70015BB22 /* NSString+IRPinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IRPinYin.m"; sourceTree = "<group>"; };
+		7780FEB31EC1D3F70015BB22 /* UIViewController+IRNavigationBarBackgrounTransparent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IRNavigationBarBackgrounTransparent.h"; sourceTree = "<group>"; };
+		7780FEB41EC1D3F70015BB22 /* UIViewController+IRNavigationBarBackgrounTransparent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IRNavigationBarBackgrounTransparent.m"; sourceTree = "<group>"; };
 		77C9BBAF1EC1A6E900584E68 /* IRCategoryCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRCategoryCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C9BBB31EC1A6E900584E68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77C9BBB51EC1A6E900584E68 /* IRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRAppDelegate.h; sourceTree = "<group>"; };
@@ -145,10 +160,20 @@
 		77C9BBE51EC1A6FC00584E68 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				7780FEAA1EC1C90E0015BB22 /* UIView+IRLayoutMethods.h */,
+				7780FEAB1EC1C90E0015BB22 /* UIView+IRLayoutMethods.m */,
 				7780FE9E1EC1A8330015BB22 /* NSDictionary+IRLog.h */,
 				7780FE9F1EC1A8330015BB22 /* NSDictionary+IRLog.m */,
 				7780FEA01EC1A8330015BB22 /* UIColor+IRExtend.h */,
 				7780FEA11EC1A8330015BB22 /* UIColor+IRExtend.m */,
+				7780FEA71EC1C8250015BB22 /* NSString+IRDate.h */,
+				7780FEA81EC1C8250015BB22 /* NSString+IRDate.m */,
+				7780FEAD1EC1CB530015BB22 /* NSString+IRVerify.h */,
+				7780FEAE1EC1CB530015BB22 /* NSString+IRVerify.m */,
+				7780FEB01EC1D2D70015BB22 /* NSString+IRPinYin.h */,
+				7780FEB11EC1D2D70015BB22 /* NSString+IRPinYin.m */,
+				7780FEB31EC1D3F70015BB22 /* UIViewController+IRNavigationBarBackgrounTransparent.h */,
+				7780FEB41EC1D3F70015BB22 /* UIViewController+IRNavigationBarBackgrounTransparent.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -289,7 +314,12 @@
 			files = (
 				77C9BBB71EC1A6E900584E68 /* IRAppDelegate.m in Sources */,
 				77C9BBB41EC1A6E900584E68 /* main.m in Sources */,
+				7780FEAF1EC1CB530015BB22 /* NSString+IRVerify.m in Sources */,
+				7780FEB21EC1D2D70015BB22 /* NSString+IRPinYin.m in Sources */,
+				7780FEA91EC1C8250015BB22 /* NSString+IRDate.m in Sources */,
+				7780FEAC1EC1C90E0015BB22 /* UIView+IRLayoutMethods.m in Sources */,
 				7780FEA21EC1A8330015BB22 /* NSDictionary+IRLog.m in Sources */,
+				7780FEB51EC1D3F70015BB22 /* UIViewController+IRNavigationBarBackgrounTransparent.m in Sources */,
 				7780FEA31EC1A8330015BB22 /* UIColor+IRExtend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,18 +1,19 @@
 //
 //  UIColor+extend.m
 //  DealExtreme
-//
-//  Created by xiongcaixing on 10-8-30.
-//  Copyright 2010 epro. All rights reserved.
-//
 
 #import "UIColor+IRExtend.h"
 
 
 @implementation UIColor(IRExtend)
 
-+ (id)getColor:(NSString *) hexColor alpha:(CGFloat)alpha
++ (id)getColorWithHexStringColor:(NSString *) hexColor alpha:(CGFloat)alpha
 {
+    if (hexColor.length != 6) {
+        NSLog(@"【ERROR】十六进制颜色字符串只支持6位");
+        return [UIColor blackColor];
+    }
+    
 	unsigned int redInt_, greenInt_, blueInt_;
 	NSRange rangeNSRange_;
 	rangeNSRange_.length = 2;  // 范围长度为2
@@ -32,9 +33,14 @@
 	return [UIColor colorWithRed:(float)(redInt_/255.0f) green:(float)(greenInt_/255.0f) blue:(float)(blueInt_/255.0f) alpha:alpha];
 }
 
-+ (id)getColor:(NSString *) hexColor
-{
-    return [self getColor:hexColor alpha:1.0f];
++(id)getColorWithHexStringColor:(NSString *)hexColor{
+    
+    if (hexColor.length != 6) {
+        NSLog(@"【ERROR】十六进制颜色字符串只支持6位");
+        return [UIColor blackColor];
+    }
+
+    return [self getColorWithHexStringColor:hexColor alpha:1.0f];
 }
 
 @end

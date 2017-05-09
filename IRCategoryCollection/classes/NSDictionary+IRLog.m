@@ -2,7 +2,7 @@
 //  NSDictionary+LTLog.m
 //  xFollow
 //
-//  Created by qiaoqiao on 2017/3/10.
+//  Created by irena on 2017/3/10.
 //  Copyright © 2017年 LT. All rights reserved.
 //
 
