@@ -10,8 +10,7 @@
 		7780FEA21EC1A8330015BB22 /* NSDictionary+IRLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7780FE9F1EC1A8330015BB22 /* NSDictionary+IRLog.m */; };
 		7780FEA31EC1A8330015BB22 /* UIColor+IRExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7780FEA11EC1A8330015BB22 /* UIColor+IRExtend.m */; };
 		77C9BBB41EC1A6E900584E68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C9BBB31EC1A6E900584E68 /* main.m */; };
-		77C9BBB71EC1A6E900584E68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C9BBB61EC1A6E900584E68 /* AppDelegate.m */; };
-		77C9BBBA1EC1A6E900584E68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C9BBB91EC1A6E900584E68 /* ViewController.m */; };
+		77C9BBB71EC1A6E900584E68 /* IRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C9BBB61EC1A6E900584E68 /* IRAppDelegate.m */; };
 		77C9BBBD1EC1A6E900584E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C9BBBB1EC1A6E900584E68 /* Main.storyboard */; };
 		77C9BBBF1EC1A6E900584E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C9BBBE1EC1A6E900584E68 /* Assets.xcassets */; };
 		77C9BBC21EC1A6E900584E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C9BBC01EC1A6E900584E68 /* LaunchScreen.storyboard */; };
@@ -43,10 +42,8 @@
 		7780FEA11EC1A8330015BB22 /* UIColor+IRExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IRExtend.m"; sourceTree = "<group>"; };
 		77C9BBAF1EC1A6E900584E68 /* IRCategoryCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRCategoryCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C9BBB31EC1A6E900584E68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		77C9BBB51EC1A6E900584E68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		77C9BBB61EC1A6E900584E68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		77C9BBB81EC1A6E900584E68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		77C9BBB91EC1A6E900584E68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77C9BBB51EC1A6E900584E68 /* IRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRAppDelegate.h; sourceTree = "<group>"; };
+		77C9BBB61EC1A6E900584E68 /* IRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAppDelegate.m; sourceTree = "<group>"; };
 		77C9BBBC1EC1A6E900584E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77C9BBBE1EC1A6E900584E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77C9BBC11EC1A6E900584E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,10 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				77C9BBE51EC1A6FC00584E68 /* classes */,
-				77C9BBB51EC1A6E900584E68 /* AppDelegate.h */,
-				77C9BBB61EC1A6E900584E68 /* AppDelegate.m */,
-				77C9BBB81EC1A6E900584E68 /* ViewController.h */,
-				77C9BBB91EC1A6E900584E68 /* ViewController.m */,
+				77C9BBB51EC1A6E900584E68 /* IRAppDelegate.h */,
+				77C9BBB61EC1A6E900584E68 /* IRAppDelegate.m */,
 				77C9BBBB1EC1A6E900584E68 /* Main.storyboard */,
 				77C9BBBE1EC1A6E900584E68 /* Assets.xcassets */,
 				77C9BBC01EC1A6E900584E68 /* LaunchScreen.storyboard */,
@@ -220,6 +215,7 @@
 		77C9BBA71EC1A6E900584E68 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = IR;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = irena;
 				TargetAttributes = {
@@ -291,8 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77C9BBBA1EC1A6E900584E68 /* ViewController.m in Sources */,
-				77C9BBB71EC1A6E900584E68 /* AppDelegate.m in Sources */,
+				77C9BBB71EC1A6E900584E68 /* IRAppDelegate.m in Sources */,
 				77C9BBB41EC1A6E900584E68 /* main.m in Sources */,
 				7780FEA21EC1A8330015BB22 /* NSDictionary+IRLog.m in Sources */,
 				7780FEA31EC1A8330015BB22 /* UIColor+IRExtend.m in Sources */,

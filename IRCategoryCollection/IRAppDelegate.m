@@ -6,13 +6,13 @@
 //  Copyright © 2017年 irena. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "IRAppDelegate.h"
 
-@interface AppDelegate ()
+@interface IRAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation IRAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
