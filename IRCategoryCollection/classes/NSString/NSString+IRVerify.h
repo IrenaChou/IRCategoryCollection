@@ -9,6 +9,21 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (IRVerify)
+/**
+ 验证金额的合法性【保留两位小数】
+ 
+ @param moneyText 金额字符串
+ @return 【YES】 = 合法，【No】= 不合法
+ */
++(BOOL)verifyingMoneyWithMoneyText:(NSString*)moneyText;
+
+/**
+ 验证身份证合法性
+
+ @param cardNo 身份证号
+ @return 是否合法【YES = 合法，NO = 不合法】
+ */
++ (BOOL)checkIdentityCardNo:(NSString *)cardNo;
 
 /**
  验证手机号的合法性

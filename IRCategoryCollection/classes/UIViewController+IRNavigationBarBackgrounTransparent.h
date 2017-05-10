@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (navigationBarBackgrounTransparent)
+@interface UIViewController (IRNavigationBarBackgrounTransparent)
 /**
  *  状态栏是否显示背景色
  *

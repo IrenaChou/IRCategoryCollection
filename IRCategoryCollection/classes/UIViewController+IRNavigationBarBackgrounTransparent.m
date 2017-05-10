@@ -6,9 +6,9 @@
 //  Copyright © 2016年 zhongdai. All rights reserved.
 //
 
-#import "UIViewController+navigationBarBackgrounTransparent.h"
+#import "UIViewController+IRNavigationBarBackgrounTransparent.h"
 
-@implementation UIViewController (navigationBarBackgrounTransparent)
+@implementation UIViewController (IRNavigationBarBackgrounTransparent)
 /**
  *  状态栏是否显示背景色
  *
