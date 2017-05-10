@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "IRCategoryCollection"
-  s.version      = "0.0.9"
+  s.version      = "1.0.1"
   s.summary      = "IRCategoryCollection category 管理"
 
   s.description  = <<-DESC
