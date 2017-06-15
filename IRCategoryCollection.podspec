@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "IRCategoryCollection"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "IRCategoryCollection category 管理"
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
 
   # s.source_files = "IRCategoryCollection/classes/**/*.{h,m}"
-  s.source_files = "IRCategoryC/*"
+  s.source_files = "IRCategoryC*"
   
   s.framework  = "UIKit","Foundation"
   s.requires_arc = true
