@@ -56,3 +56,9 @@ UIImage
 **UIImage**：
 * 【 **IREx** 】[去除图片渲染效果](http://irenachou.github.io/2016/09/21/16-09-21-imageWithRenderingMode/)
 * 【 **IRQRCode** 】通过二维码字符串生成可扫描的二维码图片，[具体详情](http://irenachou.github.io/2016/11/08/16-11-08-qrcodecreate/)
+
+
+NSDate
+---
+**NSDate**：
+* 【 **IRString** 】获取当天日期字符串【2017-06-13】

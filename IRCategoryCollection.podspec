@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "IRCategoryCollection"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "IRCategoryCollection category 管理"
 
   s.description  = <<-DESC
@@ -17,8 +17,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/IrenaChou/IRCategoryCollection.git", :tag => "#{s.version}" }
 
 
-  s.source_files = "IRCategoryCollection/classes/**/*.{h,m}"
-
+  # s.source_files = "IRCategoryCollection/classes/**/*.{h,m}"
+  s.source_files = "IRCategoryC"
+  
   s.framework  = "UIKit","Foundation"
   s.requires_arc = true
 
