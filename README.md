@@ -62,3 +62,9 @@ NSDate
 ---
 **NSDate**：
 * 【 **IRString** 】获取当天日期字符串【2017-06-13】
+
+
+IRQuicklyCreated
+---
+**UILabel**：
+* 【 **label_textWhite_Center_WithText** 】创建文本为白色居中的Label
