@@ -20,4 +20,14 @@
  */
 +(instancetype)label_textWhite_Center_WithText:(NSString *)text fontSize:(CGFloat)fontSize;
 
+
+/**
+ 快速创建albel
+
+ @param textColor 文本颜色
+ @param fontSize 文本字号
+ @return UILabel
+ */
++(instancetype)label_Center_WithTextColor:(UIColor*)textColor fontSize:(CGFloat)fontSize;
+
 @end
