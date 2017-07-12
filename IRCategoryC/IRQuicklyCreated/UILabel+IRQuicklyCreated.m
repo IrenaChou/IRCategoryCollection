@@ -25,9 +25,18 @@
 +(instancetype)label_Center_WithTextColor:(UIColor*)textColor fontSize:(CGFloat)fontSize{
     UILabel *lbl = [[UILabel alloc]init];
     
-    lbl.textColor = [UIColor whiteColor];
+    lbl.textColor = textColor;
     lbl.font = [UIFont systemFontOfSize:fontSize];
     lbl.textAlignment = NSTextAlignmentCenter;
+    
+    return lbl;
+}
++(instancetype)labelWithFontSize:(CGFloat)fontSize{
+    UILabel *lbl = [[UILabel alloc]init];
+    
+    lbl.textColor = [UIColor blackColor];
+    lbl.font = [UIFont systemFontOfSize:fontSize];
+    lbl.textAlignment = NSTextAlignmentLeft;
     
     return lbl;
 }

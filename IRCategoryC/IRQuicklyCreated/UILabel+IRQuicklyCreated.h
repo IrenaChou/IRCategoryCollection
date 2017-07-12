@@ -30,4 +30,11 @@
  */
 +(instancetype)label_Center_WithTextColor:(UIColor*)textColor fontSize:(CGFloat)fontSize;
 
+/**
+ 快速创建Label
+
+ @param fontSize 文字字号
+ @return UILabel
+ */
++(instancetype)labelWithFontSize:(CGFloat)fontSize;
 @end
