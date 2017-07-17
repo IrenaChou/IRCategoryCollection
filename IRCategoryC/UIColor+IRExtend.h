@@ -25,4 +25,13 @@
  */
 + (id)getColorWithHexStringColor:(NSString *) hexColor alpha:(CGFloat)alpha;
 
+
+/**
+ UIColor 转UIImage
+
+ @param color 颜色
+ @return UIImage
+ */
++ (UIImage*) imageWithColor: (UIColor*) color;
+
 @end

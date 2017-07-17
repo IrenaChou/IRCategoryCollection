@@ -22,6 +22,7 @@
     
     return lbl;
 }
+
 +(instancetype)label_Center_WithTextColor:(UIColor*)textColor fontSize:(CGFloat)fontSize{
     UILabel *lbl = [[UILabel alloc]init];
     
