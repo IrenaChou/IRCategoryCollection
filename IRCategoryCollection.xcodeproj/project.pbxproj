@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7780FF011EC2B82E0015BB22 /* IRNSStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7780FF001EC2B82E0015BB22 /* IRNSStringTests.m */; };
+		77814DC11F209A6400F762DF /* UIImage+IRGradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 77814DC01F209A6400F762DF /* UIImage+IRGradientColor.m */; };
 		77B885B31F0E27FE00BE4327 /* NSDate+IRString.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B8859C1F0E27FE00BE4327 /* NSDate+IRString.m */; };
 		77B885B41F0E27FE00BE4327 /* NSDictionary+IRLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B8859E1F0E27FE00BE4327 /* NSDictionary+IRLog.m */; };
 		77B885D71F0E31A800BE4327 /* NSString+IRDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B885C11F0E31A800BE4327 /* NSString+IRDate.m */; };
@@ -50,6 +51,8 @@
 
 /* Begin PBXFileReference section */
 		7780FF001EC2B82E0015BB22 /* IRNSStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRNSStringTests.m; sourceTree = "<group>"; };
+		77814DBF1F209A6400F762DF /* UIImage+IRGradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+IRGradientColor.h"; sourceTree = "<group>"; };
+		77814DC01F209A6400F762DF /* UIImage+IRGradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IRGradientColor.m"; sourceTree = "<group>"; };
 		77B8859B1F0E27FE00BE4327 /* NSDate+IRString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+IRString.h"; sourceTree = "<group>"; };
 		77B8859C1F0E27FE00BE4327 /* NSDate+IRString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+IRString.m"; sourceTree = "<group>"; };
 		77B8859D1F0E27FE00BE4327 /* NSDictionary+IRLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+IRLog.h"; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 				77B885CF1F0E31A800BE4327 /* UIImage+IREx.m */,
 				77B885D01F0E31A800BE4327 /* UIImage+IRQRCode.h */,
 				77B885D11F0E31A800BE4327 /* UIImage+IRQRCode.m */,
+				77814DBF1F209A6400F762DF /* UIImage+IRGradientColor.h */,
+				77814DC01F209A6400F762DF /* UIImage+IRGradientColor.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -393,6 +398,7 @@
 				77B885D91F0E31A800BE4327 /* NSString+IRTrans.m in Sources */,
 				77B885E01F0E31A800BE4327 /* UIViewController+IRNavigationBarBackgrounTransparent.m in Sources */,
 				77B885DA1F0E31A800BE4327 /* NSString+IRVerify.m in Sources */,
+				77814DC11F209A6400F762DF /* UIImage+IRGradientColor.m in Sources */,
 				77B885ED1F0E342A00BE4327 /* UILabel+IRQuicklyCreated.m in Sources */,
 				77B885B31F0E27FE00BE4327 /* NSDate+IRString.m in Sources */,
 				77C9BBB71EC1A6E900584E68 /* IRAppDelegate.m in Sources */,

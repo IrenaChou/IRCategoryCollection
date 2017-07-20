@@ -56,6 +56,7 @@ UIImage
 **UIImage**：
 * 【 **IREx** 】[去除图片渲染效果](http://irenachou.github.io/2016/09/21/16-09-21-imageWithRenderingMode/)
 * 【 **IRQRCode** 】通过二维码字符串生成可扫描的二维码图片，[具体详情](http://irenachou.github.io/2016/11/08/16-11-08-qrcodecreate/)
+* 【 **IRGradientColor** 】通过颜色及渐变方向生成渐变图片，[具体使用](http://irenachou.github.io/2016/03/01/gradientColor/)
 
 
 NSDate
